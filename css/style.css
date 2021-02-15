@@ -7,10 +7,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body{
-    background-color: #191622;
-}
-
 header{
     font-size: 120%;
     color: #c0c0c0;
@@ -113,4 +109,37 @@ footer p{
 footer b{
     font-size: small;
     color: #722CD8;
+}
+
+/* Efeito de Background feito por Emanuel Pinto, você pode encontrar em: https://manuelpinto.in */ 
+
+body {
+	background: linear-gradient(-45deg, #191622, #322b3b, #372453, #281655);
+	background-size: 400% 400%;
+	-webkit-animation: gradient 15s ease infinite;
+	        animation: gradient 15s ease infinite;
+}
+
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
