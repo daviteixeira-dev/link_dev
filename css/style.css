@@ -46,7 +46,7 @@ article a {
     width: 300px;
     margin: 1rem;
     padding: 0;
-    transition: all 0.8s;
+    transition: all 1s;
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0.40);
 }
@@ -59,7 +59,6 @@ a:active, a:hover{
 .icone {
     display:flex;
     border-radius: 0.25rem 0rem 0rem 0.25rem;
-    padding: 0rem 0rem 0rem 0rem;
 }
 
 .instagram{
