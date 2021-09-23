@@ -1,59 +1,100 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" dir="ltr">
 
 <!-- Page Information ---------------------->
 
 <head>
+    <!--Meta Tags-->
     <meta charset="UTF-8">
-    <title>Davi Teixeira | Social</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description" content="Projeto de redirecionador personalizado pra bio no instagram para négocios.">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!--Fav Icon-->
     <link rel="icon" type="image/png" href="img/icone.png">
-    
+    <link rel="apple-touch-icon" href="img/icone.png">
+    <link rel="canonical" href="https://www.daviteixeira.dev.br/link_dev/" />
+    <!--Bootstrap 5 CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--Bootstrap Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- Título e CSS-->
+    <title>Social | Davi Teixeira</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header>
-        <img id="photo" src="img/Davi_Teixeira.png" alt="Foto do Davi Teixeira">
-        <h1>Davi Teixeira</h1>
-        <p>Olá Stalker, tudo bem? <span>&#129311;</span></p>
+        <div class="container">
+            <img id="photo" src="img/Davi_Teixeira.png" alt="Foto do Davi Teixeira" title="Apenas uma foto minha de perfil :)" width="300" height="300">
+            <h1>Davi Teixeira</h1>
+            <h2>Olá, tudo bem? &#128077;</h2>
+        </div>
     </header>
-
     <main>
-        <section>
-            
-            <article>
-
-                <!--Instagram-->
-                <a href="https://www.instagram.com/daviteixeira.me/?hl=pt-br" class="button" target="_blank">
-                    <div class="icone instagram"><img src="img/instagram.png" alt="Logo do Instagram" class="card"></div>
-                    <div class="description"><p>Instagram</p></div>
-                </a>
-
-                <!--GitHub-->
-                <a href="https://github.com/daviteixeira-btm" class="button" target="_blank">
-                    <div class="icone github"><img src="img/github.png" alt="Logo do GitHub" class="card"></div>
-                    <div class="description"><p>GitHub</p></div>
-                </a>
-
-                <!--LinkedIn-->
-                <a href="https://www.linkedin.com/in/daviteixeira-me/" class="button" target="_blank">
-                    <div class="icone linkedin"><img src="img/linkedin.png" alt="Logo do Linkedin" class="card"></div>
-                    <div class="description"><p>LinkedIn</p></div>
-                </a>
-                
-                <!--Medium-->
-                <a href="https://medium.com/@daviteixeira.btm" class="button" target="_blank">
-                    <div class="icone medium"><img src="img/medium.png" alt="Logo do Medium" class="card"></div>
-                    <div class="description"><p>Medium</p></div>
-                </a>
-
-            </article>
-        
+        <section class="container">      
+            <div class="row">
+                <div class="col-12" id="menu">
+                    <nav class="nav justify-content-center">
+                        <ul>
+                            <li class="nav-item">
+                                <!--Instagram-->
+                                <h3 title="Esse link aponta para o meu instagram.">
+                                    <a href="https://www.instagram.com/dt.websites/" class="option" target="_blank" title="Esse link aponta para o meu instagram.">
+                                        <i class="bi bi-instagram" id="instagram" alt="Icone do Instagram"></i> Instagram
+                                    </a>
+                                </h3>
+                            </li>
+                            <li class="nav-item">
+                                <!--GitHub-->
+                                <h3 title="Esse link aponta para o meu github.">
+                                    <a href="https://github.com/daviteixeira-btm" class="option" target="_blank" title="Esse link aponta para o meu github.">
+                                        <i class="bi bi-github" id="github" alt="Icone do GitHub"></i> GitHub
+                                    </a>
+                                </h3>
+                            </li>
+                            <li class="nav-item">
+                                <!--LinkedIn-->
+                                <h3 title="Esse link aponta para o meu linkedin.">
+                                    <a href="https://www.linkedin.com/in/daviteixeira-me/" class="option" target="_blank" title="Esse link aponta para o meu linkedin.">
+                                        <i class="bi bi-linkedin" id="linkedin" alt="Icone do LinkedIn"></i> LinkedIn
+                                    </a>
+                                </h3>
+                            </li>
+                            <li class="nav-item">
+                                <!--WhatsApp-->
+                                <h3 title="Esse link aponta para o meu whatsapp.">
+                                    <a href="https://api.whatsapp.com/send?phone=5588981861803" class="option" target="_blank" title="Esse link aponta para o meu whatsapp.">
+                                        <i class="bi bi-whatsapp" id="whatsapp" alt="Icone do WhatsApp"></i> WhatsApp
+                                    </a>
+                                </h3>
+                            </li>
+                            <li class="nav-item">
+                                <!--Twitter-->
+                                <h3 title="Esse link aponta para o meu twitter.">
+                                    <a href="https://twitter.com/DaviTei51909613" class="option" target="_blank" rel="noopener" title="Esse link aponta para o meu twitter.">
+                                        <i class="bi bi-twitter" id="twitter" alt="Icone do twitter"></i> Twitter
+                                    </a>
+                                </h3>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
-        <p>Design by: <b>@Davi Teixeira</b></p>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h4>Design by: <a href="https://www.daviteixeira.dev.br/" target="_black" rel="noopener" title="Veja mais sobre meu trabalho!">@dt.websites</a></h4>
+                </div>
+            </div>
+        </div>
     </footer>
+    <!--Bootstrap 5 Scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
 </body>
 </html>

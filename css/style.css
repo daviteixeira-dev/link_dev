@@ -7,111 +7,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-header{
-    font-size: 120%;
-    color: #c0c0c0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: 1rem;
-    padding: 1rem;
-}
-
-header img {
-    width: 200px;
-    border-radius: 50%;
-    border: 5px solid #5A4B81;
-    margin: 1rem;
-}
-
-section{
-    margin: 1rem;
-}
-
-article {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-article a {
-    display: flex;
-    align-items:center;
-    justify-content:left;
-    flex-direction: row;
-    border-radius: 0.25rem;
-    height: 60px;
-    width: 300px;
-    margin: 1rem;
-    padding: 0;
-    transition: all 1s;
-    cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.40);
-}
-
-a:active, a:hover{
-    transition: all 0.5s;
-    background-color: #9A56FD;
-}
-
-.icone {
-    display:flex;
-    border-radius: 0.25rem 0rem 0rem 0.25rem;
-}
-
-.instagram{
-    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
-}
-
-.github{
-    background: linear-gradient(58deg, #722CD8 8%, #9A56FD 98%);
-}
-
-.linkedin{
-    background: linear-gradient(90deg, rgba(111,139,231,1) 0%, rgba(47,41,157,1) 100%);
-}
-
-.medium{
-    background: linear-gradient(90deg, rgb(124, 128, 139) 0%, rgb(181, 179, 206) 100%);
-}
-
-.description {
-    display: flex;
-    padding: 0rem 0rem 0rem 10%;
-}
-
-article a img {
-    display: inline-block;
-    height: 60px;
-}
-
-article p {
-    display: inline-block;
-    font-weight: bold;
-    color: white;
-}
-
-footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: 1rem;
-}
-
-footer p{
-    color: #c0c0c0;
-}
-
-footer b{
-    font-size: small;
-    color: #722CD8;
-}
-
 /* Efeito de Background feito por Emanuel Pinto, você pode encontrar em: https://manuelpinto.in */ 
-
 body {
 	background: linear-gradient(-45deg, #191622, #322b3b, #372453, #281655);
 	background-size: 400% 400%;
@@ -141,4 +37,98 @@ body {
 	100% {
 		background-position: 0% 50%;
 	}
+}
+
+header {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+header h1, h2 {
+    color: #c0c0c0;
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+    margin-top: 1rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    border: 5px solid #5A4B81;
+}
+
+main .container .row #menu nav {
+    margin-top: 1rem;
+}
+
+main .container .row #menu nav ul {
+    padding: 0;
+    width: 20rem;
+}
+
+main .container .row #menu nav ul .nav-item {
+    padding: .5rem;
+    cursor: pointer;
+}
+
+main .container .row #menu nav ul .nav-item h3 {
+    padding: .4rem;
+    padding-left: 0;
+    transition: .5 all;
+    background-color: #281655;
+}
+
+main .container .row #menu nav ul .nav-item h3:hover {
+    
+    background-color: #9A56FD;
+}
+
+main .container .row #menu nav ul .nav-item h3 .option {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+main .container .row #menu nav ul .nav-item h3 .option i {
+    padding: .5rem;
+    font-size: 2rem;
+}
+
+main .container .row #menu nav ul .nav-item h3 .option #github {
+    background: linear-gradient(58deg, #722CD8 8%, #9A56FD 98%);
+}
+
+main .container .row #menu nav ul .nav-item h3 .option #whatsapp {
+    background: linear-gradient(90deg, rgb(8, 175, 50) 0%, rgb(4, 204, 14) 100%);
+}
+
+main .container .row #menu nav ul .nav-item h3 .option #linkedin {
+    background: linear-gradient(90deg, rgba(111,139,231,1) 0%, rgba(47,41,157,1) 100%);
+}
+
+main .container .row #menu nav ul .nav-item h3 .option #twitter {
+    background: linear-gradient(90deg, rgb(137, 161, 243) 0%, rgb(90, 83, 235) 100%);
+}
+
+main .container .row #menu nav ul .nav-item h3 .option #instagram {
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+footer h4 {
+    font-size: 1rem;
+    color: #722CD8;
+    font-weight: bold;
+}
+
+footer h4 a {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+footer h4 a:hover {
+    color: #9A56FD;
 }
